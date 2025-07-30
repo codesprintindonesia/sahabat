@@ -1,0 +1,174 @@
+ERROR - 2023-10-21 15:42:42 --> mysqli_sql_exception: Table 'sahabat_agro.produk' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-21 15:42:42 --> Table 'sahabat_agro.produk' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM produk')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-21 15:45:49 --> mysqli_sql_exception: Table 'sahabat_agro.produk' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-21 15:45:49 --> Table 'sahabat_agro.produk' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM produk')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-21 15:47:11 --> mysqli_sql_exception: Table 'sahabat_agro.produk' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT * FROM p...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM p...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM p...')
+#3 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-21 15:47:11 --> Table 'sahabat_agro.produk' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM produk')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 15:47:30 --> Undefined property: stdClass::$id_kategori
+in APPPATH\Views\master\produk\index.php on line 48.
+ 1 APPPATH\Views\master\produk\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:36:22 --> Undefined property: stdClass::$id_kategori
+in APPPATH\Views\master\produk\index.php on line 48.
+ 1 APPPATH\Views\master\produk\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:36:49 --> Undefined property: stdClass::$id_kategori
+in APPPATH\Views\master\produk\index.php on line 48.
+ 1 APPPATH\Views\master\produk\index.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 48)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:37:36 --> Undefined variable $kategori_produk
+in APPPATH\Views\master\kategori\index.php on line 31.
+ 1 APPPATH\Views\master\kategori\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori_produk', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:39:39 --> Undefined variable $kategori_produk
+in APPPATH\Views\master\kategori\index.php on line 31.
+ 1 APPPATH\Views\master\kategori\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori_produk', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:39:59 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\master\kategori\index.php on line 35.
+ 1 APPPATH\Views\master\kategori\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:40:00 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\master\kategori\index.php on line 35.
+ 1 APPPATH\Views\master\kategori\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/index', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('master/kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 16:48:15 --> Undefined variable $title
+in APPPATH\Views\template.php on line 16.
+ 1 APPPATH\Views\template.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\template.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\template.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('template', [], true)
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/create', [], true)
+ 6 APPPATH\Controllers\Home.php(28): view('master/kategori/create')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->create()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 17:42:40 --> Only variables should be passed by reference
+in APPPATH\Controllers\Master\Kategori.php on line 42.
+ 1 APPPATH\Controllers\Master\Kategori.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Kategori.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Kategori->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 17:44:23 --> Undefined array key 0
+in APPPATH\Controllers\Master\Kategori.php on line 42.
+ 1 APPPATH\Controllers\Master\Kategori.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Kategori.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Kategori->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Kategori))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 18:23:02 --> Undefined variable $kategori
+in APPPATH\Views\master\kategori\index.php on line 117.
+ 1 APPPATH\Views\master\kategori\index.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php', 117)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori/index', [], true)
+ 5 APPPATH\Controllers\Master\Kategori.php(17): view('master/kategori/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Kategori->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Kategori))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-21 20:05:49 --> Too few arguments to function App\Controllers\Master\Item::update(), 0 passed in C:\xampp81\htdocs\disperindag\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Master\Item.php on line 133.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

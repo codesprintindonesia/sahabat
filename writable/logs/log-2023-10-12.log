@@ -1,0 +1,167 @@
+ERROR - 2023-10-12 12:59:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'disperindag', 3380, '', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-12 12:59:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM produk')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-12 13:00:10 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'disperindag', 3380, '', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp81\htdocs\disperindag\app\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#3 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#4 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-10-12 13:00:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Controllers\Home.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * FROM produk')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 13:00:16 --> Undefined property: stdClass::$nama_produk
+in APPPATH\Views\blank.php on line 106.
+ 1 APPPATH\Views\blank.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_produk', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blank.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blank.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blank', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('blank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 13:12:43 --> Invalid file: "produk/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('produk/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('produk/index', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('produk/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:09:11 --> Undefined variable $value
+in APPPATH\Views\master\produk\index.php on line 43.
+ 1 APPPATH\Views\master\produk\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:09:35 --> Undefined variable $value
+in APPPATH\Views\master\produk\index.php on line 43.
+ 1 APPPATH\Views\master\produk\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:09:37 --> Undefined variable $value
+in APPPATH\Views\master\produk\index.php on line 43.
+ 1 APPPATH\Views\master\produk\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:10:04 --> Unclosed '{' on line 40
+in APPPATH\Views\master\produk\index.php on line 64.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 3 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:10:42 --> Cannot use object of type stdClass as array
+in APPPATH\Views\master\produk\index.php on line 42.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 4 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:24:23 --> Undefined property: stdClass::$nama_kategori
+in APPPATH\Views\master\kategori_produk\index.php on line 32.
+ 1 APPPATH\Views\master\kategori_produk\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori_produk\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori_produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori_produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Kategori_Produk.php(26): view('master/kategori_produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Kategori_Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Kategori_Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:29:51 --> Undefined variable $value
+in APPPATH\Views\master\kategori_produk\index.php on line 35.
+ 1 APPPATH\Views\master\kategori_produk\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori_produk\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\kategori_produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/kategori_produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Kategori_Produk.php(26): view('master/kategori_produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Kategori_Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Kategori_Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-12 14:38:47 --> Undefined variable $no
+in APPPATH\Views\master\produk\index.php on line 46.
+ 1 APPPATH\Views\master\produk\index.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\master\\produk\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/produk/index', [], true)
+ 5 APPPATH\Controllers\Master\Produk.php(26): view('master/produk/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

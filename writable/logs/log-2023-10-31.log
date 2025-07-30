@@ -1,0 +1,2026 @@
+ERROR - 2023-10-31 01:23:20 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 01:23:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+ LIMIT -1, 1', [], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 01:23:47 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 01:23:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+ LIMIT -1, 1', [], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 01:26:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 01:26:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+ LIMIT -1, 1', [], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 01:26:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 01:26:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-1, 1' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+ LIMIT -1, 1', [], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(322): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_page()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:46:14 --> Undefined variable $pager
+in APPPATH\Views\pustaka.php on line 162.
+ 1 APPPATH\Views\pustaka.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 162)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:49:09 --> "pagination_link" is not a valid Pager template.
+in SYSTEMPATH\Pager\Pager.php on line 120.
+ 1 SYSTEMPATH\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('pagination_link')
+ 2 SYSTEMPATH\Pager\Pager.php(110): CodeIgniter\Pager\Pager->displayLinks('default', 'pagination_link')
+ 3 APPPATH\Controllers\Pustaka.php(50): CodeIgniter\Pager\Pager->makeLinks(1, 10, 5, 'pagination_link')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:49:48 --> Invalid file: "master/pustaka.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/pustaka.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('master/pustaka', [], true)
+ 3 APPPATH\Controllers\Pustaka.php(53): view('master/pustaka', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:50:01 --> Call to a member function links() on string
+in APPPATH\Views\pustaka.php on line 162.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(53): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:51:04 --> Call to a member function links() on string
+in APPPATH\Views\pustaka.php on line 162.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(53): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:51:05 --> Call to a member function links() on string
+in APPPATH\Views\pustaka.php on line 162.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(53): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:57:13 --> Undefined variable $variable
+in APPPATH\Views\pustaka.php on line 154.
+ 1 APPPATH\Views\pustaka.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(47): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 01:57:26 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 154.
+ 1 APPPATH\Views\pustaka.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(47): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:15:02 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Pustaka.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:15:24 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Pustaka.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:15:25 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Pustaka.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:16:27 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Controllers\Pustaka.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:17:30 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...], false)
+ 6 APPPATH\Controllers\Pustaka.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:17:31 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...], false)
+ 6 APPPATH\Controllers\Pustaka.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:18:13 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in SYSTEMPATH\Database\Query.php on line 333.
+ 1 SYSTEMPATH\Database\Query.php(333): strtr('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 2 SYSTEMPATH\Database\Query.php(308): CodeIgniter\Database\Query->matchNamedBinds('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...])
+ 3 SYSTEMPATH\Database\Query.php(159): CodeIgniter\Database\Query->compileBinds()
+ 4 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\Query->getQuery()
+ 5 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 10', [...], false)
+ 6 APPPATH\Controllers\Pustaka.php(36): CodeIgniter\Database\BaseBuilder->get()
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index(Object(CodeIgniter\Database\MySQLi\Result))
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:26 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:41 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:29:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:30:05 --> Array to string conversion
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:31:07 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\pustaka.php on line 138.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(48): view('pustaka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('2')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:34:58 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:35:57 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:35:58 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:35:59 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:36:55 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('index.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:37:02 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 02:37:07 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 138.
+ 1 APPPATH\Views\pustaka.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 138)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:37:55 --> File not found: "C:\xampp81\htdocs\disperindag\public/uploads/gambar/original/1698723475_f28b86e55863e9c7f234.png"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723475_f28b86e55863e9c7f234.png')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723475_f28b86e55863e9c7f234.png', true)
+ 3 APPPATH\Controllers\Master\Item.php(155): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723475_f28b86e55863e9c7f234.png')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:37:59 --> File not found: "C:\xampp81\htdocs\disperindag\public/uploads/gambar/original/1698723479_3d68eadb9c659d0c1247.png"
+in SYSTEMPATH\Files\File.php on line 47.
+ 1 SYSTEMPATH\Files\File.php(47): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723479_3d68eadb9c659d0c1247.png')
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723479_3d68eadb9c659d0c1247.png', true)
+ 3 APPPATH\Controllers\Master\Item.php(155): CodeIgniter\Images\Handlers\BaseHandler->withFile('C:\\xampp81\\htdocs\\disperindag\\public/uploads/gambar/original/1698723479_3d68eadb9c659d0c1247.png')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->create()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:39:47 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Master\Item.php(157): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/thumbnail/1698723587_6f20e8cd2c93c36345c0.png')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:39:52 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Master\Item.php(157): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/thumbnail/1698723592_771271a1a1635e5971b5.png')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:51:15 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/item/original/): Is a directory
+in APPPATH\Controllers\Master\Item.php on line 240.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/): Is a directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Item.php', 240)
+ 2 APPPATH\Controllers\Master\Item.php(240): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:51:22 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/item/original/): Is a directory
+in APPPATH\Controllers\Master\Item.php on line 240.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/): Is a directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Item.php', 240)
+ 2 APPPATH\Controllers\Master\Item.php(240): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 03:52:29 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/item/original/): Is a directory
+in APPPATH\Controllers\Master\Item.php on line 240.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/): Is a directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Item.php', 240)
+ 2 APPPATH\Controllers\Master\Item.php(240): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/item/original/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Item->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Item))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 04:32:08 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 76.
+ 1 APPPATH\Views\pustaka.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('images', 'parallax', '8.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 04:32:15 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 76.
+ 1 APPPATH\Views\pustaka.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(49): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('images', 'parallax', '8.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 04:33:50 --> Attempt to read property "nama" on null
+in APPPATH\Views\pustaka.php on line 76.
+ 1 APPPATH\Views\pustaka.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(51): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('images', 'parallax', '8.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 05:59:09 --> Attempt to read property "filename" on null
+in APPPATH\Views\pustaka.php on line 71.
+ 1 APPPATH\Views\pustaka.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(51): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('portfolio-5-masonry-nomargin.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:15:46 --> Attempt to read property "filename" on null
+in APPPATH\Views\pustaka.php on line 71.
+ 1 APPPATH\Views\pustaka.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(51): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('portfolio-single.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:16:13 --> Attempt to read property "filename" on null
+in APPPATH\Views\pustaka.php on line 71.
+ 1 APPPATH\Views\pustaka.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(51): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('portfolio-5-masonry-nomargin.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 06:25:10 --> mysqli_sql_exception: Table 'sahabat_agro.video_lokal' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `video_l...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `video_l...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `video_l...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `video_l...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 06:25:10 --> Table 'sahabat_agro.video_lokal' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `video_lokal`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `video_lokal`
+LEFT JOIN `item` ON `item`.`id` = `video_lokal`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 15', [...], false)
+ 2 APPPATH\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 06:25:40 --> mysqli_sql_exception: Table 'sahabat_agro.videoslokal' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `videosl...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `videosl...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `videosl...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videosl...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 06:25:40 --> Table 'sahabat_agro.videoslokal' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videoslokal`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `videoslokal`
+LEFT JOIN `item` ON `item`.`id` = `videoslokal`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 15', [...], false)
+ 2 APPPATH\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 06:25:41 --> mysqli_sql_exception: Table 'sahabat_agro.videoslokal' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `videosl...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `videosl...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `videosl...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videosl...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 06:25:41 --> Table 'sahabat_agro.videoslokal' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videoslokal`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `videoslokal`
+LEFT JOIN `item` ON `item`.`id` = `videoslokal`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `item`.`id` = :item.id:
+ LIMIT 15', [...], false)
+ 2 APPPATH\Controllers\Pustaka.php(88): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:25:58 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 132.
+ 1 APPPATH\Views\pustaka.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:26:19 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 132.
+ 1 APPPATH\Views\pustaka.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:26:20 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 132.
+ 1 APPPATH\Views\pustaka.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:26:37 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 132.
+ 1 APPPATH\Views\pustaka.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:26:48 --> Undefined variable $list_gambar
+in APPPATH\Views\pustaka.php on line 132.
+ 1 APPPATH\Views\pustaka.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_gambar', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 06:39:11 --> Attempt to read property "filename" on null
+in APPPATH\Views\video_lokal.php on line 71.
+ 1 APPPATH\Views\video_lokal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('portfolio-5-masonry-title-overlay.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 07:18:14 --> Undefined variable $time
+in APPPATH\Helpers\time_ago_helper.php on line 4.
+ 1 APPPATH\Helpers\time_ago_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $time', 'C:\\xampp81\\htdocs\\disperindag\\app\\Helpers\\time_ago_helper.php', 4)
+ 2 APPPATH\Views\video_lokal.php(142): time_ago('2023-10-31 14:41:54')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 6 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 07:18:21 --> Undefined variable $time
+in APPPATH\Helpers\time_ago_helper.php on line 4.
+ 1 APPPATH\Helpers\time_ago_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $time', 'C:\\xampp81\\htdocs\\disperindag\\app\\Helpers\\time_ago_helper.php', 4)
+ 2 APPPATH\Views\video_lokal.php(142): time_ago('2023-10-31 14:41:54')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 6 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 07:18:46 --> A non-numeric value encountered
+in APPPATH\Helpers\time_ago_helper.php on line 4.
+ 1 APPPATH\Helpers\time_ago_helper.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric value encountered', 'C:\\xampp81\\htdocs\\disperindag\\app\\Helpers\\time_ago_helper.php', 4)
+ 2 APPPATH\Views\video_lokal.php(142): time_ago('2023-10-31 14:41:54')
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 6 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 07:34:13 --> Call to undefined function time_ago()
+in APPPATH\Views\video_lokal.php on line 142.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 4 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:07:13 --> Undefined property: stdClass::$id
+in APPPATH\Views\pustaka.php on line 96.
+ 1 APPPATH\Views\pustaka.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 96)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(51): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:14:50 --> Attempt to read property "filename" on null
+in APPPATH\Views\video_lokal.php on line 71.
+ 1 APPPATH\Views\video_lokal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('portfolio-5-masonry-title-overlay.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:15:12 --> Attempt to read property "filename" on null
+in APPPATH\Views\video_lokal.php on line 71.
+ 1 APPPATH\Views\video_lokal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('portfolio-5-masonry-title-overlay.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:15:14 --> Attempt to read property "filename" on null
+in APPPATH\Views\video_lokal.php on line 71.
+ 1 APPPATH\Views\video_lokal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('portfolio-5-masonry-title-overlay.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:15:19 --> Attempt to read property "filename" on null
+in APPPATH\Views\video_lokal.php on line 71.
+ 1 APPPATH\Views\video_lokal.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 71)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(98): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->video('portfolio-5-masonry-title-overlay.html')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:16:43 --> Undefined variable $list_videolokal
+in APPPATH\Views\video_lokal.php on line 132.
+ 1 APPPATH\Views\video_lokal.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_videolokal', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(146): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:17:45 --> Undefined variable $list_videolokal
+in APPPATH\Views\video_lokal.php on line 132.
+ 1 APPPATH\Views\video_lokal.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_videolokal', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(146): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:19:21 --> Undefined variable $list_videolokal
+in APPPATH\Views\video_lokal.php on line 132.
+ 1 APPPATH\Views\video_lokal.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_videolokal', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(146): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:20:37 --> Undefined variable $list_videolokal
+in APPPATH\Views\video_lokal.php on line 132.
+ 1 APPPATH\Views\video_lokal.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_videolokal', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(146): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:21:05 --> Undefined variable $list_videolokal
+in APPPATH\Views\video_lokal.php on line 132.
+ 1 APPPATH\Views\video_lokal.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_videolokal', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php', 132)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_lokal.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_lokal', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(146): view('video_lokal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 08:47:50 --> Undefined property: stdClass::$youtube_id
+in APPPATH\Views\video_youtube.php on line 139.
+ 1 APPPATH\Views\video_youtube.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$youtube_id', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_youtube.php', 139)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\video_youtube.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('video_youtube', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(155): view('video_youtube', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->youtube('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:44:56 --> Object of class stdClass could not be converted to string
+in APPPATH\Views\partials\page_title.php on line 5.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/page_title', null, true)
+ 4 APPPATH\Views\pustaka\gambar.php(51): CodeIgniter\View\View->include('partials/page_title')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka\\gambar.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka/gambar', [], true)
+ 8 APPPATH\Controllers\Pustaka.php(51): view('pustaka/gambar', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->gambar('1')
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:48:07 --> Undefined variable $list_kategori
+in APPPATH\Views\partials\user_header.php on line 34.
+ 1 APPPATH\Views\partials\user_header.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/user_header', null, true)
+ 5 APPPATH\Views\blog\gambar.php(46): CodeIgniter\View\View->include('partials/user_header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(14): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:48:51 --> Undefined variable $list_kategori
+in APPPATH\Views\partials\user_header.php on line 34.
+ 1 APPPATH\Views\partials\user_header.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/user_header', null, true)
+ 5 APPPATH\Views\blog\gambar.php(39): CodeIgniter\View\View->include('partials/user_header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(14): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:48:53 --> Undefined variable $list_kategori
+in APPPATH\Views\partials\user_header.php on line 34.
+ 1 APPPATH\Views\partials\user_header.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/user_header', null, true)
+ 5 APPPATH\Views\blog\gambar.php(39): CodeIgniter\View\View->include('partials/user_header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(14): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:49:15 --> Undefined variable $list_kategori
+in APPPATH\Views\partials\user_header.php on line 34.
+ 1 APPPATH\Views\partials\user_header.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $list_kategori', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php', 34)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_header.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/user_header', null, true)
+ 5 APPPATH\Views\blog\gambar.php(39): CodeIgniter\View\View->include('partials/user_header')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(14): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:51:26 --> Attempt to read property "filename" on string
+in APPPATH\Views\partials\user_page_title.php on line 2.
+ 1 APPPATH\Views\partials\user_page_title.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "filename" on string', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_page_title.php', 2)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\user_page_title.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/user_page_title', null, true)
+ 5 APPPATH\Views\blog\gambar.php(44): CodeIgniter\View\View->include('partials/user_page_title')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(22): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 13:52:15 --> Attempt to read property "nama" on string
+in APPPATH\Views\partials\page_sub_menu.php on line 6.
+ 1 APPPATH\Views\partials\page_sub_menu.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama" on string', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\page_sub_menu.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\partials\\page_sub_menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('partials/page_sub_menu', null, true)
+ 5 APPPATH\Views\blog\gambar.php(27): CodeIgniter\View\View->include('partials/page_sub_menu')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 9 APPPATH\Controllers\Blog.php(22): view('blog/gambar', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:01:41 --> Undefined property: stdClass::$judul
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$judul', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:04:18 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:04:18 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:04:18 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:04:18 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:04:18 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(23): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:09:41 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:09:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:10:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:10:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:10:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:10:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:10:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2 in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:10:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT J...' at line 2
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.*, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:11:07 --> mysqli_sql_exception: Table 'gambar.id' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:11:07 --> Table 'gambar.id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.`id`, `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:11:39 --> mysqli_sql_exception: Table 'gambar.id' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:11:39 --> Table 'gambar.id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.`id`, `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:12:20 --> mysqli_sql_exception: Table 'gambar.id' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:12:20 --> Table 'gambar.id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.`id`, `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Blog.php(16): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:13:26 --> mysqli_sql_exception: Table 'gambar.id' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM (...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM (...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM (...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM (...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:13:26 --> Table 'gambar.id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM (`gambar`.`id`, `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`, `kategori`.`nama` as `nama_kategori`, `item`.`nama` as `nama_item`)
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+LEFT JOIN `kategori` ON `kategori`.`id` = `item`.`kategori_id`', [], false)
+ 2 APPPATH\Controllers\Blog.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:13:54 --> mysqli_sql_exception: Table 'gambar.id' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:13:54 --> Table 'gambar.id' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gambar`.`id`, `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`', [], false)
+ 2 APPPATH\Controllers\Blog.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 14:14:04 --> mysqli_sql_exception: Table 'gambar.filename' doesn't exist in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Blog.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-31 14:14:04 --> Table 'gambar.filename' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `gambar`.`filename`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`updated_at`', [], false)
+ 2 APPPATH\Controllers\Blog.php(17): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('1')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:15:59 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:15:59 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:15:59 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:15:59 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:15:59 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:31 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:31 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:31 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:31 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:31 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:43 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:43 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:43 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:43 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:43 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:47 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'full', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:47 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:47 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:47 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:17:47 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:00 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:00 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:00 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:00 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:19:38 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:07 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:07 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:07 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:07 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:22 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:22 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:22 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:20:22 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:21:42 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:21:42 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:21:42 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:21:42 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:01 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:01 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:01 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:01 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:30 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '10.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:30 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'author', '1.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:30 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '20.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:22:30 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 42.
+ 1 APPPATH\Views\blog\gambar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 42)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('images', 'blog', 'small', '21.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:10:09 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 43.
+ 1 APPPATH\Views\blog\gambar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('facebook-icon.png')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:13:50 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 43.
+ 1 APPPATH\Views\blog\gambar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('facebook-icon.png')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:54:34 --> Attempt to read property "judul" on null
+in APPPATH\Views\blog\gambar.php on line 43.
+ 1 APPPATH\Views\blog\gambar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "judul" on null', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php', 43)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\blog\\gambar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH\Controllers\Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Blog->gambar('facebook-icon.png')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 17:09:36 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'sahabat_agro', 3381, '', 0)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#6 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-31 17:09:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `carousel`', [], false)
+ 3 APPPATH/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 17:11:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'disf1314_codesprintid'@'localhost' to database 'disf1314_sahabat_agro' in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'disf1314_codesp...', '135.100/senT', 'disf1314_sahaba...', 3306, '', 0)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#6 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'disf1314_sahabat_agro' in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-31 17:11:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'disf1314_sahabat_agro'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `carousel`', [], false)
+ 3 APPPATH/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-31 17:11:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'disf1314_codesprintid'@'localhost' to database 'disf1314_sahabat_agro' in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:185
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/MySQLi/Connection.php(185): mysqli->real_connect('localhost', 'disf1314_codesp...', '135.100/senT', 'disf1314_sahaba...', 3306, '', 0)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#6 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database 'disf1314_sahabat_agro' in /home/disf1314/public_html/system/Database/MySQLi/Connection.php:229
+Stack trace:
+#0 /home/disf1314/public_html/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/disf1314/public_html/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/disf1314/public_html/system/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 /home/disf1314/public_html/app/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/disf1314/public_html/system/CodeIgniter.php(919): App\Controllers\Home->index()
+#5 /home/disf1314/public_html/system/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/disf1314/public_html/system/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/disf1314/public_html/index.php(80): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-31 17:11:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database 'disf1314_sahabat_agro'
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `carousel`', [], false)
+ 3 APPPATH/Controllers/Home.php(14): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 17:13:10 --> Trying to get property 'judul' of non-object
+in APPPATH/Views/blog/gambar.php on line 43.
+ 1 APPPATH/Views/blog/gambar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul\' of non-object', '/home/disf1314/public_html/app/Views/blog/gambar.php', 43, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/disf1314/public_html/app/Views/blog/gambar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH/Controllers/Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Blog->gambar('facebook-icon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 17:13:26 --> Trying to get property 'judul' of non-object
+in APPPATH/Views/blog/gambar.php on line 43.
+ 1 APPPATH/Views/blog/gambar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'judul\' of non-object', '/home/disf1314/public_html/app/Views/blog/gambar.php', 43, [...])
+ 2 SYSTEMPATH/View/View.php(226): include('/home/disf1314/public_html/app/Views/blog/gambar.php')
+ 3 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1188): CodeIgniter\View\View->render('blog/gambar', [], true)
+ 5 APPPATH/Controllers/Blog.php(26): view('blog/gambar', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(919): App\Controllers\Blog->gambar('facebook-icon.png')
+ 7 SYSTEMPATH/CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH/CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(80): CodeIgniter\CodeIgniter->run()

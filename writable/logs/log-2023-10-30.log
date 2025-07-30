@@ -1,0 +1,77 @@
+CRITICAL - 2023-10-30 13:21:58 --> Undefined property: stdClass::$kategori_id
+in APPPATH\Views\pustaka.php on line 105.
+ 1 APPPATH\Views\pustaka.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kategori_id', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:22:40 --> Undefined property: stdClass::$kategori_id
+in APPPATH\Views\pustaka.php on line 105.
+ 1 APPPATH\Views\pustaka.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$kategori_id', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 105)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:23:33 --> Undefined property: stdClass::$nama
+in APPPATH\Views\pustaka.php on line 181.
+ 1 APPPATH\Views\pustaka.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 181)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:23:35 --> Undefined property: stdClass::$nama
+in APPPATH\Views\pustaka.php on line 181.
+ 1 APPPATH\Views\pustaka.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 181)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 13:23:55 --> Undefined property: stdClass::$nama
+in APPPATH\Views\pustaka.php on line 181.
+ 1 APPPATH\Views\pustaka.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 181)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 15:59:09 --> Undefined property: stdClass::$url
+in APPPATH\Views\pustaka.php on line 187.
+ 1 APPPATH\Views\pustaka.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$url', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 187)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 16:49:42 --> Undefined property: stdClass::$filename
+in APPPATH\Views\pustaka.php on line 265.
+ 1 APPPATH\Views\pustaka.php(265): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$filename', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php', 265)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\pustaka.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pustaka', [], true)
+ 5 APPPATH\Controllers\Pustaka.php(30): view('pustaka', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pustaka->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pustaka))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

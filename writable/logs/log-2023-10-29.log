@@ -1,0 +1,357 @@
+CRITICAL - 2023-10-29 05:12:39 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/tentang/original/): Is a directory
+in APPPATH\Controllers\Master\Tentang.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/tentang/original/): Is a directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Tentang.php', 193)
+ 2 APPPATH\Controllers\Master\Tentang.php(193): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/tentang/original/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Tentang->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Tentang))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:13:08 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/tentang/original/): Is a directory
+in APPPATH\Controllers\Master\Tentang.php on line 193.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/tentang/original/): Is a directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Tentang.php', 193)
+ 2 APPPATH\Controllers\Master\Tentang.php(193): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/tentang/original/')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Tentang->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Tentang))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:39:43 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(47): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'ACS')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:48:30 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(47): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'ACS')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:48:31 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(47): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'ACS')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:48:45 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(47): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'ACS')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:49:14 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(52): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Codepsrint')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:49:15 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(52): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Codepsrint')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:49:29 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(52): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Codepsrint')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 05:49:30 --> preg_match(): Argument #2 ($subject) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 477.
+ 1 SYSTEMPATH\Email\Email.php(477): preg_match('/\\<(.*)\\>/', Object(CodeIgniter\Email\Email), null)
+ 2 APPPATH\Controllers\Kontak.php(52): CodeIgniter\Email\Email->setFrom(Object(CodeIgniter\Email\Email), 'Codepsrint')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 05:50:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:50:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:50:40 --> 
+CRITICAL - 2023-10-29 05:53:03 --> Call to a member function send() on string
+in APPPATH\Controllers\Kontak.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-29 05:53:20 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(57): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:53:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:53:20 --> 
+ERROR - 2023-10-29 05:55:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 587, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:55:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:55:15 --> 
+ERROR - 2023-10-29 05:56:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:56:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:56:57 --> 
+ERROR - 2023-10-29 05:57:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:57:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:57:03 --> 
+ERROR - 2023-10-29 05:58:29 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:58:29 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:58:29 --> 
+ERROR - 2023-10-29 05:58:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:58:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:58:31 --> 
+ERROR - 2023-10-29 05:58:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:58:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:58:43 --> 
+ERROR - 2023-10-29 05:58:44 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 05:58:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 05:58:44 --> 
+ERROR - 2023-10-29 06:03:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.gmai...', 465, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(56): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 06:03:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 06:03:03 --> 
+ERROR - 2023-10-29 06:05:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.goog...', 587, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(57): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 06:05:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 06:05:33 --> 
+ERROR - 2023-10-29 06:13:04 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL: An existing connection was forcibly closed by the remote host in C:\xampp81\htdocs\disperindag\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): SS...', 'C:\\xampp81\\htdo...', 1888)
+#1 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1888): fsockopen('ssl://smtp.goog...', 587, NULL, NULL, 5)
+#2 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\xampp81\htdocs\disperindag\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\xampp81\htdocs\disperindag\app\Controllers\Kontak.php(57): CodeIgniter\Email\Email->send()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Kontak->kirimEmail()
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kontak))
+#8 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-10-29 06:13:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-10-29 06:13:04 --> 
+CRITICAL - 2023-10-29 07:07:46 --> Undefined property: mysqli::$filename
+in APPPATH\Views\welcome_message.php on line 127.
+ 1 APPPATH\Views\welcome_message.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$filename', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php', 127)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 07:08:02 --> Undefined property: mysqli::$filename
+in APPPATH\Views\welcome_message.php on line 127.
+ 1 APPPATH\Views\welcome_message.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$filename', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php', 127)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 07:08:19 --> Cannot use object of type mysqli as array
+in APPPATH\Views\welcome_message.php on line 127.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 07:08:21 --> Cannot use object of type mysqli as array
+in APPPATH\Views\welcome_message.php on line 127.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 07:08:46 --> Cannot use object of type mysqli as array
+in APPPATH\Views\welcome_message.php on line 128.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 07:10:52 --> Cannot use object of type stdClass as array
+in APPPATH\Views\welcome_message.php on line 127.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 4 APPPATH\Controllers\Home.php(22): view('welcome_message', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 11:23:04 --> Undefined property: stdClass::$deskripsi
+in APPPATH\Views\welcome_message.php on line 175.
+ 1 APPPATH\Views\welcome_message.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$deskripsi', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php', 175)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-29 11:43:50 --> Undefined variable $item
+in APPPATH\Views\welcome_message.php on line 102.
+ 1 APPPATH\Views\welcome_message.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php', 102)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp81\\htdocs\\disperindag\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(28): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()

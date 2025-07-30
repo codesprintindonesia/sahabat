@@ -1,0 +1,211 @@
+ERROR - 2023-10-22 12:32:38 --> mysqli_sql_exception: Unknown column 'gambar' in 'field list' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `ga...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(112): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->create()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 12:32:38 --> Unknown column 'gambar' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gambar` (`item_id`, `judul`, `deskripsi`, `gambar`) VALUES (:item_id:, :judul:, :deskripsi:, :gambar:)', [...], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(112): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 12:34:57 --> mysqli_sql_exception: Unknown column 'gambar.filename' in 'field list' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_all()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 12:34:57 --> Unknown column 'gambar.filename' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.`id`, `gambar`.`item_id`, `gambar`.`judul`, `gambar`.`deskripsi`, `gambar`.`filename`, `gambar`.`created_at`, `gambar`.`updated_at`, `item`.`nama` as `item_nama`
+FROM `gambar`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`', [], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_all()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 12:45:18 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(346): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(337): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Master\Gambar.php(106): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->create()
+ 9 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+10 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 12:47:32 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Master\Gambar.php(109): CodeIgniter\Images\Handlers\GDHandler->save('C:\\xampp81\\htdocs\\disperindag\\public/uploads/thumbnail/1697978852_94ad1078a6f65c295fee.png')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->create()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 13:06:41 --> Too few arguments to function App\Controllers\Master\Gambar::update(), 0 passed in C:\xampp81\htdocs\disperindag\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Master\Gambar.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 13:32:10 --> mysqli_sql_exception: Unknown column 'gambar.kategori_id' in 'on clause' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 13:32:10 --> Unknown column 'gambar.kategori_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `item`.`nama` as `item_nama`
+FROM `gambar`
+LEFT JOIN `kategori` ON `kategori`.`id` = `gambar`.`kategori_id`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 13:32:50 --> mysqli_sql_exception: Unknown column 'gambar.kategori_id' in 'on clause' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 13:32:50 --> Unknown column 'gambar.kategori_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `kategori` ON `kategori`.`id` = `gambar`.`kategori_id`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 13:32:53 --> mysqli_sql_exception: Unknown column 'gambar.kategori_id' in 'on clause' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `gambar`...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `gambar`...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `gambar`...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 13:32:53 --> Unknown column 'gambar.kategori_id' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `gambar`.*, `kategori`.`nama` as `kategori_nama`, `kategori`.`id` as `kategori_id`, `item`.`nama` as `item_nama`, `item`.`id` as `item_id`
+FROM `gambar`
+LEFT JOIN `kategori` ON `kategori`.`id` = `gambar`.`kategori_id`
+LEFT JOIN `item` ON `item`.`id` = `gambar`.`item_id`
+WHERE `gambar`.`id` = :gambar.id:', [...], false)
+ 2 APPPATH\Controllers\Master\Gambar.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->find_by_id('7')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 13:51:49 --> unlink(C:\xampp81\htdocs\disperindag\public/uploads/original/1697978155_f9aa2a303adc3529523f.png): No such file or directory
+in APPPATH\Controllers\Master\Gambar.php on line 189.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp81\\htdocs\\disperindag\\public/uploads/original/1697978155_f9aa2a303adc3529523f.png): No such file or directory', 'C:\\xampp81\\htdocs\\disperindag\\app\\Controllers\\Master\\Gambar.php', 189)
+ 2 APPPATH\Controllers\Master\Gambar.php(189): unlink('C:\\xampp81\\htdocs\\disperindag\\public/uploads/original/1697978155_f9aa2a303adc3529523f.png')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->update()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 14:03:04 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Master\Gambar.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 14:03:07 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Master\Gambar.php on line 163.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-22 14:08:30 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Master\Gambar.php on line 195.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\Gambar->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\Gambar))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 18:02:18 --> mysqli_sql_exception: Unknown column 'videolokal.link' in 'field list' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `videolo...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `videolo...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `videolo...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videolo...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\VideoLokal.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\VideoLokal->find_all()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VideoLokal))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 18:02:18 --> Unknown column 'videolokal.link' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videolokal`.`id`, `videolokal`.`judul`, `videolokal`.`deskripsi`, `videolokal`.`link`, `Item`.`nama` as `item_nama`
+FROM `videolokal`
+LEFT JOIN `Item` ON `Item`.`id` = `videolokal`.`item_id`', [], false)
+ 2 APPPATH\Controllers\Master\VideoLokal.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\VideoLokal->find_all()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VideoLokal))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-22 18:02:20 --> mysqli_sql_exception: Unknown column 'videolokal.link' in 'field list' in C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp81\htdocs\disperindag\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `videolo...', 0)
+#1 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `videolo...')
+#2 C:\xampp81\htdocs\disperindag\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `videolo...')
+#3 C:\xampp81\htdocs\disperindag\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videolo...', Array, false)
+#4 C:\xampp81\htdocs\disperindag\app\Controllers\Master\VideoLokal.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(919): App\Controllers\Master\VideoLokal->find_all()
+#6 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VideoLokal))
+#7 C:\xampp81\htdocs\disperindag\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp81\htdocs\disperindag\index.php(80): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-22 18:02:20 --> Unknown column 'videolokal.link' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `videolokal`.`id`, `videolokal`.`judul`, `videolokal`.`deskripsi`, `videolokal`.`link`, `Item`.`nama` as `item_nama`
+FROM `videolokal`
+LEFT JOIN `Item` ON `Item`.`id` = `videolokal`.`item_id`', [], false)
+ 2 APPPATH\Controllers\Master\VideoLokal.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Master\VideoLokal->find_all()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master\VideoLokal))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
